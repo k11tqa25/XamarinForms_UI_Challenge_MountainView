@@ -94,7 +94,6 @@ namespace MountainView.Pages
 
             var parentAnimation = new Animation();
 
-
             // create animation for each band
             parentAnimation.Add(.5, .95, new Animation(v => bandTranslationValues[0] = v, 0, -screenWidthPixels, Easing.SinInOut));
             parentAnimation.Add(.35, .90, new Animation(v => bandTranslationValues[1] = v, 0, -screenWidthPixels, Easing.SinInOut));
